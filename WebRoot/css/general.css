@@ -1,0 +1,131 @@
+body{ margin:0; padding:0; font-weight:normal;font-family: "微软雅黑" Arial, Helvetica, sans-serif;font-size: 14px; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset, img { border:0; }
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
+ol, ul, li { list-style:none; }
+caption, th { text-align:left; }
+body {font-family: "微软雅黑" Arial, Helvetica, sans-serif; background:#f2f2f2; color:#333;font-size:14px; }
+a:link {color: #000;text-decoration: none;}
+a:visited {text-decoration: none;color: #000;}
+a:hover {text-decoration:underline;	color: #000;}
+a:active{text-decoration: none;color: #000;}
+
+.clearfix{zoom:1;}
+.clear{ clear:both; height:0px; overflow:hidden}
+.right{ float:right}
+
+
+#header{ height:90px; background:#2e3e48;}
+#header ul{ width:950px; margin:0px auto; padding-top:10px;}
+#header ul li{ float:right; margin-top:50px;}
+#header ul li a{ font-size:16px; color:#fff;}
+
+.inputerror{border-color: red;background-color: red;}
+
+#contenter{ width:980px; margin:0px auto; background:#fff; min-height:700px; _height:700px;}
+#contenter .leftNav{ width:180px; float:left;}
+.leftNav ul li{ height:60px; line-height:60px; text-align:center; font-size:24px;border-bottom:1px solid #f2f2f2;}
+.leftNav ul li a{ display:block;}
+.leftNav ul li a:link,.leftNav ul li a:visited,.leftNav ul li a:active{ color:#227ab4;}
+.leftNav ul li a:hover{ background:#75aacd; color:#fff; text-decoration:none;}
+.leftNav ul li.active a{ background:#75aacd; color:#fff;}
+
+#contenter .rightList{ width:768px; padding-left:16px; border-left:1px solid #f2f2f2; float:left;}
+.rightList .create{ height:60px;}
+.rightList .create a{ display:block; margin-top:8px; float:right; background:url(../images/button.gif) no-repeat; width:120px; height:40px; text-align:center; line-height:40px; color:#fff; font-size:18px; margin-right:20px;}
+.rightList .create p{ margin-top:8px; float:left; width:120px; margin-left:6px;}
+.rightList .create p input{ float:left; margin-top:15px;}
+.rightList .create p label{ background:url(../images/delImg.gif) no-repeat; width:80px; height:40px; line-height:40px; text-align:center; font-size:18px; color:#fff; display:block; float:left; margin-left:10px;}
+
+
+.listFrame thead tr td{background:#1b99e1; color:#fff; height:50px; font-size:18px; text-align:center;}
+.listFrame tbody tr.background{background:#d2ebfe;}
+.listFrame tbody tr.gray{ background:#f5f5f5;}
+.listFrame tbody tr{ border-bottom:1px solid #f2f2f2}
+.listFrame tbody tr td{ padding:18px 0px; color:#333;}
+
+.officeItem dl dt{ float:left;}
+.officeItem dl dt img{width:118px; height:88px; border:1px solid #999;}
+.officeItem dl dd{ width:320px; float:right;}
+.officeItem dl dd ul li{ font-size:12px; color:#999;}
+.officeItem dl dd ul li.title{ font-size:18px; font-weight:bold; height:30px; line-height:30px; color:#666;width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.officeItem dl dd ul li.title a:link,.officeItem dl dd ul li.title a:visited,.officeItem dl dd ul li.title a:active{ color:#666}
+.officeItem dl dd ul li.title a:hover{ color:#f60;}
+.officeItem dl dd ul li.people{ margin:10px 0px}
+.officeItem dl dd ul li .number{ height:15px; padding-top:5px; display:block; background:url(../images/number.gif) no-repeat; padding-left:23px; font-size:12px; color:#999;}
+.officeItem dl dd ul li i{ font-style:normal; font-weight:bold;}
+.officeItem dl dd ul li i.yellow{ color:#f60;}
+.officeItem dl dd ul li i.blue{ color:#1b99e1;}
+.officeId{ width:70px;}
+.officeId span{ float:right; font-size:14px; color:#333; font-weight:bold;}
+.officeId input{ margin-left:6px;}
+.creatTime{ margin-top:30px; text-align:center;}
+.creatTime ul li{ float:left; width:60px; margin-left:23px; font-size:16px; padding-top:15px;}
+.creatTime ul li a{ color:#999; font-weight:bold;}
+.creatTime ul li a:hover{ color:#f60}
+.create ul li{ float:left; color:#f60; font-size:18px; line-height:60px; font-weight:bold;}
+.create ul li.number{ width:120px; text-align:center}
+.detail tbody tr td{ font-size:16px; color:#666; text-align: center}
+
+.wantz { float:left;margin-right:10px;width:98px; height:38px; font-size:14px; color:#fff; line-height:38px; text-align:center; display:block; background:url(../images/button1.gif) no-repeat;}
+.wantf { float:left;width:98px; height:38px; font-size:14px; color:#fff; line-height:38px; text-align:center; display:block; background:url(../images/button11.gif) no-repeat;}
+.wants {float:left;width:98px; height:38px;margin-left:15px; font-size:14px; color:#fff; line-height:38px; text-align:center; display:block; background:url(../images/green_btn.png) no-repeat;}
+.wantz a,.wantf a,.wants a{color:#fff}
+
+#page{ margin:0px auto; width:345px; height:80px; margin-top:20px;}
+#page ul li{ float:left;}
+#page ul li.mgRight a{ margin-right:0px;}
+#page ul span{float:left; display:block; border:1px solid #c0c0c0; padding:8px 15px; font-size:18px; margin-right:50px; color:#666;}
+#page ul span em{ color:#f60}
+#page ul li a{border:1px solid #c0c0c0; padding:8px 15px; font-size:18px; margin-right:50px; color:#666; color:#666; display:block}
+#page ul li a:link,#page ul li.mgRight a:visited,#page ul li.mgRight a:active{}
+#page ul li a:hover{ background:#f60; color:#fff; text-decoration:none;}
+
+/*弹出层*/
+.openLayer{display:none; }
+.layer{ width:100%; height:100%; z-index:100; position:fixed; background:#fff;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity: 0.5;opacity: 0.5; display:none;}
+.window{ width:528px; position:absolute; height:540px; margin-top:-253px; margin-left:-264px; top:50%; left:50%; z-index:1000; background:#fff; border:1px solid #333}
+.window h2{ background:#1b99e1; height:48px; line-height:48px; font-size:20px; text-align:center; position:relative; color:#fff; margin-bottom:12px;}
+.window h2 img{ position:absolute; right:10px; top:5px;}
+.window ul li{ margin-bottom:22px; overflow:hidden;}
+.window label{ float:left; line-height:30px; margin-left:30px; width:136px; font-size:18px; color:#666; letter-spacing: 1px; text-align:right;}
+.window input{ padding:3px 5px; width:245px; height:25px; line-height:25px; border:1px solid #bfbfbf;font-size:18px; color:#333;}
+.window ul li img{ float:left; width:20px; height:20px; border:2px solid #999;}
+
+.window ul li.haibao img{ width:45px; height:45px; padding:2px; background:#fff; border:1px solid #BFBFBF; float:none; float:left; margin-bottom:5px; display:inline; float:left}
+.haoBaoImg{ float:left; width:340px;}
+.window input.radio{ width:auto; height:auto;  margin:0px 2px;float:left; border:none;display:inline; float:left; padding:0px;}
+
+
+
+
+#upload{ background:url(../images/upload.gif) no-repeat; width:96px; height:40px; color:#fff; text-align:center; line-height:35px; font-size:18px; border:none;margin-left:15px; float:left; margin-top:95px;}
+.window ul li.button{ margin-left:168px; margin-top:18px; clear:both}
+.window input.saveButton{ width:88px; height:38px; line-height:30px; color:#fff; background:#1b99e1; color:#fff; text-align:center; font-size:18px;}
+.window input.cancelButton{width:88px; height:38px; line-height:30px; color:#fff; background:#999; color:#fff; text-align:center; font-size:18px; margin-right:25px;}
+
+
+.deleteFrame{ width:400px; position:absolute; height:248px; margin-top:-124px; margin-left:-200px; top:50%; left:50%; z-index:1000; background:#fff; border:1px solid #333}
+.deleteFrame ul p{ height:138px; text-align:center; font-size:20px; line-height:130px; color:#666}
+.deleteFrame ul li.button{ margin-left:0px; margin-top:0px;}
+.deleteFrame ul li.button .dd{ width:200px;}
+.deleteFrame input.delCancelButton{width:200px; border-right:1px solid #c9c9c9;  border-bottom:none; border-left:none; line-height:40px; color:#666; background:#fff; height:50px; margin-right:0px; float:left} 
+.deleteFrame input.delSaveButton{width:200px;  line-height:40px; color:#fff;border-top:1px solid #c9c9c9; background:#1b9ae1; height:50px; margin-right:0px; font-weight:bold;}
+
+
+/* login */
+#loginFrame{ width:566px; height:382px; margin-left:-283px; margin-top:-191px; left:50%; top:50%; position:absolute;}
+.login{ margin-top:20px; position:relative;}
+.login .title{ background:url(../images/loginTitle.gif) no-repeat; height:73px; line-height:72px;}
+.login .title li{ font-size:24px; padding-left:30px; color:#fff;}
+.login .title li a{ float:right; display:block; width:70px; background:url(../images/loginIcon.gif) right center no-repeat; font-size:18px; color:#ddd;  margin-right:20px;}
+.login .title li a:hover{ text-decoration:none}
+.login .bottomImg{ position:absolute; bottom:0;}
+.midCont{ background:#fff; border:1px solid #b5b5b5;margin-top:-15px; border-bottom: none; padding-top:28px; height:223px;}
+.midCont ul{ width:418px; margin:0px auto;}
+.midCont ul li{ margin-bottom:14px;}
+.midCont input{ background:url(../images/loginButton.gif) no-repeat; width:334px; height:46px; line-height:38px; text-align:center; font-size:24px; color:#fff; border:none;}
+.midCont p{width:334px;margin:22px auto 0px auto;}
+.midCont input:hover{ background:url(../images/loginButton.gif) 0px -46px no-repeat; width:334px; height:46px; line-height:38px; text-align:center; font-size:24px; color:#fff; border:none;}
+.midCont ul li input.loginInput{ background:url(../images/loginInput.gif) no-repeat; width:398px; height:51px; border:none; padding:0px 12px; line-height:50px; font-size:18px; color:#000; text-align:left;}
+

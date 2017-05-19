@@ -1,0 +1,48 @@
+/*通话详情callerdetail.jsp页面的“打洞信息”标签页面*/
+
+/*包含“打洞信息”的最外层边框*/
+#callerdetail_punch{
+	border:2px solid RGB(217, 46, 0);
+	padding:2px;
+}
+
+/*包含“打洞信息”中两个子标签的外层边框*/
+#punch01{
+	border:2px solid RGB(37,160,241);
+}
+
+
+<!--
+UL.punch_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.punch_tabs LI {
+	display: inline;
+}
+
+UL.punch_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.punch_tabs LI A.selected,UL.punch_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.punch_tabs LI A:focus {
+	outline: 0;
+}
+-->

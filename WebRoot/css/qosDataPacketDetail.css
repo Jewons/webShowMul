@@ -1,0 +1,99 @@
+/*通话详情packageDetail.jsp页面的头部及八大标签、页面全局的样式*/
+body {
+	font: normal 12px/20px arial, '宋体';
+	/*默认样式，字体大小12px,行高20px，先采用arial字体，如没有，采用宋体*/
+	/* background-image: url(../../images/bg.jpg); */
+	padding: 5px;
+}
+
+/*控制居中，最外界div*/
+#qosDataPacketDetail_all {
+	position: relative;
+	margin: 0 auto;
+	border: thin solid RGB(204, 204, 204);
+	width: 1100px;
+}
+
+/*大标题*/
+.qosDataPacketDetail_title {
+	position: relative; color : RGB( 51, 158, 53);
+	text-align: center;
+	color: RGB(51, 158, 53);
+}
+
+/*概要*/
+#qosDataPacketDetail_summary {
+	position: relative;
+	margin: 0 auto;
+	margin: 2px; 
+	margin-bottom : 5px;
+	padding: 2px;
+	border: thin solid RGB(17, 85, 204);
+	line-height: 25px;
+	margin-bottom: 5px;
+}
+/*概要中的小标题样式*/
+.summaryStyle {
+	color: RGB(0, 102, 204);
+}
+
+.detailTable{
+	width:100%;
+}
+
+.detailTable tr th,.detailTable tr td{
+	border: solid 1px RGB(37,160,241);
+	margin: -1px;
+	padding: 5px;
+	font: normal 12px/18px arial, '宋体';
+	WORD-BREAK: break-all; 
+    WORD-WRAP: break-word;
+}
+
+.detailTable tr th{
+	font-size: 14px;
+	font-weight:bold;
+	text-align:center;
+	font-family: '楷体';
+}
+
+/*包含“丢包率信息”中四个子标签的外层边框*/
+#qosDataPacketDetail_list{
+	border:2px solid RGB(37,160,241);
+}
+
+/*最外层四个子标签样式*/
+<!--
+UL.qosDataPacketDetail_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.qosDataPacketDetail_tabs LI {
+	display: inline;
+}
+
+UL.qosDataPacketDetail_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.qosDataPacketDetail_tabs LI A.selected,UL.qosDataPacketDetail_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.qosDataPacketDetail_tabs LI A:focus {
+	outline: 0;
+}
+-->

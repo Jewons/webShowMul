@@ -1,0 +1,53 @@
+/*通话详情callDetail.jsp页面的“总览”标签页面*/
+
+/*从“通话总览”往下各模块的外层边框*/
+.divBorder{
+	border:thin solid RGB(17,85,204);
+	margin:2px;
+	padding:3px;
+}
+
+/*包含“通话总览”的最外层边框*/
+#callerdetail_callerAll{
+	border:2px solid RGB(217, 46, 0);
+}
+
+/*包含“通话总览”中“Relay路径信息”的两个子标签的外层边框*/
+#allView01{
+	border:2px solid RGB(37,160,241);
+}
+
+<!--
+UL.allView_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.allView_tabs LI {
+	display: inline;
+}
+
+UL.allView_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.allView_tabs LI A.selected,UL.allView_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	border:none;
+}
+
+UL.allView_tabs LI A:focus {
+	outline: 0;
+}
+-->

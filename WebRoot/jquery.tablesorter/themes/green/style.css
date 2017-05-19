@@ -1,0 +1,35 @@
+table.tablesorter {
+	width:100%;
+	font-size: 12px;
+	border: solid 1px RGB(37,160,241);
+}
+
+table.tablesorter th,table.tablesorter td{
+	border: solid 1px RGB(37,160,241);
+	margin: -1px;
+	padding: 5px;
+	font: normal 12px/18px arial, '宋体';
+	WORD-BREAK: break-all; 
+    WORD-WRAP: break-word;
+}
+
+
+table.tablesorter .header {
+	background-image: url(bg.png);
+	background-repeat: no-repeat;
+	background-position: right;
+}
+table.tablesorter .headerSortUp {
+	background-image: url(asc.png);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #0000FF;
+	background-position: right;
+}
+table.tablesorter .headerSortDown {
+	background-image: url(desc.png);
+	background-repeat: no-repeat;
+	font-weight: bold;
+	color: #0000FF;
+	background-position: right;
+}

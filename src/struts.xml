@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<!--  <constant name="struts.devMode" value="true" />-->
+	<constant name="struts.multipart.maxSize" value="10737418240" />
+	<constant name="struts.action.extension" value="action" />
+	
+	<package name="default" extends="struts-default">
+		<interceptors>
+			<interceptor name="monitoring" class="net.bull.javamelody.StrutsInterceptor" />
+
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="monitoring" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		<default-interceptor-ref name="myStack" />
+	</package>
+
+	<package name="webShow" extends="default" namespace="/">
+		<interceptors>
+			<interceptor-stack name="statck">
+				<interceptor-ref name="autowiring" />
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+
+		<default-interceptor-ref name="statck" />
+		<!--
+			<global-results> <result name="error"
+			type="dispatcher">/505.jsp</result> </global-results>
+
+			<global-exception-mappings> <exception-mapping result="error"
+			exception="java.lang.Exception" /> </global-exception-mappings>
+		-->
+		<default-action-ref name="defaultAction"></default-action-ref>
+		<action name="defaultAction">
+			<result>/index.html</result>
+		</action>
+	</package>
+
+	<include file="struts_config/struts-*.xml" />
+</struts>    

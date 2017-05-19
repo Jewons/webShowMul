@@ -1,0 +1,92 @@
+/*通话详情callDetail.jsp页面的“带宽自适应调节”标签页面*/
+
+/*包含“带宽自适应调节”的最外层边框*/
+#callerdetail_bandwithAdaptive{
+	border:2px solid RGB(217, 46, 0);
+	padding:2px;
+}
+
+/*包含“带宽自适应调节”中两个子标签的外层边框*/
+#bandwithAdaptive01{
+	border:2px solid RGB(37,160,241);
+}
+
+
+/**
+带宽自适应，表格样式
+*/
+.bandAdaptive{
+	border:thin solid RGB(37,160,241);
+	margin-top:1px;
+	margin-bottom:1px;
+	width:90%;
+}
+
+.bandAdaptive caption{
+	color:green;
+}
+
+.bandAdaptive tr th{
+	border:thin solid RGB(37,160,241);
+	font: bold 12px/18px arial, '宋体';
+	margin: -1px;
+	padding: 3px;
+	background-color:#A3B8BF;
+	text-align:center;//文字居中
+	WORD-BREAK: break-all; 
+    WORD-WRAP: break-word;
+    vertical-align:text-top;
+}
+
+.bandAdaptive tr td{
+	border:thin solid RGB(37,160,241);
+	font: normal 12px/18px arial, '宋体';
+	margin: -1px;
+	padding: 3px;
+	WORD-BREAK: break-all; 
+    WORD-WRAP: break-word;
+    vertical-align:text-top;
+}
+
+.bandAdaptivetd01{
+	background-color: #C8C4BC;
+}
+.bandAdaptivetd02{
+	background-color:#E8D6D1;
+}
+
+
+<!--
+UL.bandwithAdaptive_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.bandwithAdaptive_tabs LI {
+	display: inline;
+}
+
+UL.bandwithAdaptive_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.bandwithAdaptive_tabs LI A.selected,UL.bandwithAdaptive_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.bandwithAdaptive_tabs LI A:focus {
+	outline: 0;
+}
+-->

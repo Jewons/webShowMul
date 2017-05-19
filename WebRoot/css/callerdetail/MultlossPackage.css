@@ -1,0 +1,217 @@
+/*会议详情callDetail.jsp页面的“丢包率统计”标签页面*/
+
+/*包含“丢包率信息”的最外层边框*/
+#callerdetail_lossPackageMult{
+	border:2px solid RGB(217, 46, 0);
+	padding:2px;
+}
+
+/*包含“丢包率信息”中四个子标签的外层边框*/
+#lossPackageMult_speaker_tabs_view{
+	border:2px solid RGB(37,160,241);
+}
+
+/*最外层四个子标签样式*/
+<!--
+UL.MultlossPackage_speakerId_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.MultlossPackage_speakerId_tabs LI {
+	display: inline;
+}
+
+UL.MultlossPackage_speakerId_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.MultlossPackage_speakerId_tabs LI A.selected,UL.MultlossPackage_speakerId_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.MultlossPackage_speakerId_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*最外层四个子标签样式*/
+<!--
+UL.MultlossPackage_userId_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.MultlossPackage_userId_tabs LI {
+	display: inline;
+}
+
+UL.MultlossPackage_userId_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.MultlossPackage_userId_tabs LI A.selected,UL.MultlossPackage_userId_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.MultlossPackage_userId_tabs LI A:focus {
+	outline: 0;
+}
+-->
+/*
+不可用的信息显示红色加粗
+*/
+#disable td{
+	color:#FF0000;
+	font-weight: bold;
+}
+
+
+
+
+/*=====================以下是Relay状态=========================*/
+/*Relay状态*/
+/*包含“Relay状态”的最外层边框*/
+#lossPackage01{
+	padding:2px;
+}
+
+/*包含“Relay状态”中表格的外层边框*/
+#lossPackageMultUp{
+   border:2px solid RGB(37,160,241);
+}
+#lossPackageMultDown{
+   border:2px solid RGB(37,160,241);
+}
+/*两个子标签样式*/
+<!--
+UL.lossPackageMult_directon_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackageMult_directon_tabs LI {
+	display: inline;
+}
+
+UL.lossPackageMult_directon_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackageMult_directon_tabs LI A.selected,UL.lossPackageMult_directon_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackage0101_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*两个子标签样式*/
+<!--
+UL.lossPackageMult_resourceId_up_tap {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackageMult_resourceId_up_tap LI {
+	display: inline;
+}
+
+UL.lossPackageMult_resourceId_up_tap LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackageMult_resourceId_up_tap LI A.selected,UL.lossPackageMult_resourceId_up_tap LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackageMult_resourceId_up_tap LI A:focus {
+	outline: 0;
+}
+-->
+
+/*两个子标签样式*/
+<!--
+UL.lossPackageMult_resourceId_down_tap {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackageMult_resourceId_down_tap LI {
+	display: inline;
+}
+
+UL.lossPackageMult_resourceId_down_tap LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackageMult_resourceId_down_tap LI A.selected,UL.lossPackageMult_resourceId_down_tap LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackageMult_resourceId_down_tap LI A:focus {
+	outline: 0;
+}
+-->
+

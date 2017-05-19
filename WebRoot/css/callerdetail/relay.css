@@ -1,0 +1,272 @@
+/*通话详情callDetail.jsp页面的“Relay信息”标签页面*/
+
+/*包含“Relay信息”的最外层边框*/
+#callerdetail_relay{
+	border:2px solid RGB(217, 46, 0);
+	padding:2px;
+}
+
+/*包含“Relay信息”中四个子标签的外层边框*/
+#relayContent{
+	border:2px solid RGB(37,160,241);
+}
+
+/*最外层四个子标签样式*/
+<!--
+UL.relay_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.relay_tabs LI {
+	display: inline;
+}
+
+UL.relay_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.relay_tabs LI A.selected,UL.relay_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.relay_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*
+不可用的信息显示红色加粗
+*/
+#disable td{
+	color:#FF0000;
+	font-weight: bold;
+}
+
+/*
+“短链关系”和“RC输出”顶部的小表格
+*/
+.detailTable1{
+	width:100%;
+}
+
+.detailTable1 tr th,.detailTable1 tr td{
+	border: solid 1px RGB(37,160,241);
+	margin: -1px;
+	padding: 5px;
+	font: normal 12px/10px arial, '宋体';
+}
+
+.detailTable1 tr th{
+	font-size: 14px;
+	font-weight:bold;
+	text-align:center;
+	font-family: '楷体';
+}
+
+
+/*=====================以下是Relay状态=========================*/
+/*Relay状态*/
+/*包含“Relay状态”的最外层边框*/
+#relay01{
+	padding:2px;
+}
+
+/*包含“Relay状态”中表格的外层边框*/
+#relay0101{
+   border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.relay0101_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.relay0101_tabs LI {
+	display: inline;
+}
+
+UL.relay0101_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.relay0101_tabs LI A.selected,UL.relay0101_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.relay0101_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*=====================以下是短链关系=========================*/
+/*短链状态*/
+/*包含“短链状态”的最外层边框*/
+#relay02{
+	padding:2px;
+}
+
+/*包含“短链状态”中两个子标签的外层边框*/
+#relay0202{
+	border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.relay0202_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.relay0202_tabs LI {
+	display: inline;
+}
+
+UL.relay0202_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.relay0202_tabs LI A.selected,UL.relay0202_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.relay0202_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*=====================以下是可达路径=========================*/
+/*可达路径*/
+/*包含“可达路径”的最外层边框*/
+#relay03{
+	padding:2px;
+}
+
+/*包含“可达路径”中两个子标签的外层边框*/
+#relay0301{
+	border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.relay0301_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.relay0301_tabs LI {
+	display: inline;
+}
+
+UL.relay0301_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.relay0301_tabs LI A.selected,UL.relay0301_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.relay0301_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*=====================以下是RC输出=========================*/
+/*RC输出*/
+/*包含“RC输出”的最外层边框*/
+#relay04{
+	padding:2px;
+}
+
+/*包含“RC输出”中两个子标签的外层边框*/
+#relay0402{
+	border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.relay0402_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.relay0402_tabs LI {
+	display: inline;
+}
+
+UL.relay0402_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.relay0402_tabs LI A.selected,UL.relay0402_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.relay0402_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+

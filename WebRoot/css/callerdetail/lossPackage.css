@@ -1,0 +1,177 @@
+/*通话详情callDetail.jsp页面的“丢包率统计”标签页面*/
+
+/*包含“丢包率信息”的最外层边框*/
+#callerdetail_lossPackage{
+	border:2px solid RGB(217, 46, 0);
+	padding:2px;
+}
+
+/*包含“丢包率信息”中四个子标签的外层边框*/
+#lossPackageContent{
+	border:2px solid RGB(37,160,241);
+}
+
+/*最外层四个子标签样式*/
+<!--
+UL.lossPackage_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackage_tabs LI {
+	display: inline;
+}
+
+UL.lossPackage_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackage_tabs LI A.selected,UL.lossPackage_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackage_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*
+不可用的信息显示红色加粗
+*/
+#disable td{
+	color:#FF0000;
+	font-weight: bold;
+}
+
+/*
+“短链关系”和“RC输出”顶部的小表格
+*/
+.detailTable1{
+	width:100%;
+}
+
+.detailTable1 tr th,.detailTable1 tr td{
+	border: solid 1px RGB(37,160,241);
+	margin: -1px;
+	padding: 5px;
+	font: normal 12px/10px arial, '宋体';
+}
+
+.detailTable1 tr th{
+	font-size: 14px;
+	font-weight:bold;
+	text-align:center;
+	font-family: '楷体';
+}
+
+
+/*=====================以下是Relay状态=========================*/
+/*Relay状态*/
+/*包含“Relay状态”的最外层边框*/
+#lossPackage01{
+	padding:2px;
+}
+
+/*包含“Relay状态”中表格的外层边框*/
+#lossPackage0101{
+   border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.lossPackage0101_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackage0101_tabs LI {
+	display: inline;
+}
+
+UL.lossPackage0101_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackage0101_tabs LI A.selected,UL.lossPackage0101_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackage0101_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+/*=====================以下是短链关系=========================*/
+/*短链状态*/
+/*包含“短链状态”的最外层边框*/
+#lossPackage02{
+	padding:2px;
+}
+
+/*包含“短链状态”中两个子标签的外层边框*/
+#lossPackage0202{
+	border:2px solid RGB(37,160,241);
+}
+
+/*两个子标签样式*/
+<!--
+UL.lossPackage0202_tabs {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: RGB(209,223,236);
+	line-height: 25px;
+}
+
+UL.lossPackage0202_tabs LI {
+	display: inline;
+}
+
+UL.lossPackage0202_tabs LI A {
+	padding: 3px 5px;
+	background-color: RGB(209,223,236);
+	text-decoration: none;
+	font-size: 12px;
+	border: thin solid RGB(255,255,225);
+}
+/*点击后*/
+UL.lossPackage0202_tabs LI A.selected,UL.lossPackage0202_tabs LI A:hover {
+	background-color: RGB(37,160,241);
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 7px;
+	border:none;
+}
+
+UL.lossPackage0202_tabs LI A:focus {
+	outline: 0;
+}
+-->
+
+
+
